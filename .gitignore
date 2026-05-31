@@ -1,0 +1,12 @@
+node_modules
+dist
+.turbo
+.expo
+__generated__
+.idea
+*.log
+.env
+.env.local
+.DS_Store
+storybook-static
+coverage
