@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build -o storybook-static"
+    "build": "storybook build -o storybook-static",
+    "lint": "eslint src .storybook"
   },
   "dependencies": {
     "@react_native_design_system/tokens": "workspace:*",
