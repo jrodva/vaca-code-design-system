@@ -8,8 +8,8 @@
     "lint": "eslint src .storybook"
   },
   "dependencies": {
-    "@react_native_design_system/tokens": "workspace:*",
-    "@react_native_design_system/ui": "workspace:*",
+    "@vacacode/tokens": "workspace:*",
+    "@vacacode/ui": "workspace:*",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "react-native": "^0.76.0",
