@@ -8,6 +8,8 @@
     "lint": "eslint src .storybook"
   },
   "dependencies": {
+    "@shopify/flash-list": "^1.6.3",
+    "@tanstack/react-query": "^5.28.0",
     "@vacacode/tokens": "workspace:*",
     "@vacacode/ui": "workspace:*",
     "react": "^18.3.0",

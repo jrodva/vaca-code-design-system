@@ -1,6 +1,6 @@
 {
   "name": "@vacacode/ui",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React Native UI components for the React Native Design System",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -29,10 +29,12 @@
     "@vacacode/tokens": "workspace:*"
   },
   "peerDependencies": {
+    "@shopify/flash-list": ">=1.6.0",
     "react": ">=18.3.0",
     "react-native": ">=0.76.0"
   },
   "devDependencies": {
+    "@shopify/flash-list": "^1.6.3",
     "@testing-library/react": "^16.0.0",
     "@testing-library/jest-dom": "^6.4.0",
     "@testing-library/user-event": "^14.5.0",

@@ -1,5 +1,15 @@
 # @vacacode/ui
 
+## 1.0.0
+
+### Major Changes
+
+- First major version including:
+  - ItemCard organism and its related elements:
+    - ItemsList story.
+    - ItemsList test.
+  - Documentation about how to use the library.
+
 ## 0.1.0
 
 ### Minor Changes
