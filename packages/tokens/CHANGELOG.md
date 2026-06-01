@@ -1,5 +1,11 @@
 # @vacacode/tokens
 
+## 1.0.1
+
+### Patch Changes
+
+- Fix format in colors.ts
+
 ## 1.0.0
 
 ### Major Changes

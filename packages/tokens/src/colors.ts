@@ -134,4 +134,4 @@ export const colors = {
       },
     },
   },
-} as const;
+} as const

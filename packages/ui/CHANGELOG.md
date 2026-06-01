@@ -1,5 +1,12 @@
 # @vacacode/ui
 
+## 1.0.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @vacacode/tokens@1.0.1
+
 ## 1.0.0
 
 ### Major Changes

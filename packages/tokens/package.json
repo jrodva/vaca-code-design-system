@@ -1,6 +1,6 @@
 {
   "name": "@vacacode/tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design tokens for the React Native Design System",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
