@@ -1,3 +1,4 @@
+import path from 'path'
 import type { StorybookConfig } from '@storybook/react-vite'
 import { mergeConfig } from 'vite'
 
@@ -17,6 +18,10 @@ const config: StorybookConfig = {
       resolve: {
         alias: {
           'react-native': 'react-native-web',
+          '@shopify/flash-list': path.resolve(
+              __dirname,
+              '../src/utils/FlashListWeb.tsx'
+          ),
         },
       },
     }),
