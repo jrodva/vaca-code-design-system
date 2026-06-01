@@ -86,8 +86,8 @@ Contains publishable packages.
 Examples:
 
 ```txt
-@react_native_design_system/tokens
-@react_native_design_system/ui
+@vacacode/tokens
+@vacacode/ui
 ```
 
 Packages must be independently buildable and releasable.
@@ -114,9 +114,9 @@ Dependency flow:
 ```txt
 storybook
       ↓
-@react_native_design_system/ui
+@vacacode/ui
       ↓
-@react_native_design_system/tokens
+@vacacode/tokens
 ```
 
 Packages must never depend on Storybook.
@@ -197,7 +197,7 @@ packages/
 Public API:
 
 ```ts
-import { colors, spacing } from '@react_native_design_system/tokens'
+import { colors, spacing } from '@vacacode/tokens'
 ```
 
 Tokens should remain framework-agnostic whenever possible.
@@ -407,13 +407,13 @@ Every package must expose a clean public API.
 Correct:
 
 ```ts
-import { ItemCard } from '@react_native_design_system/ui'
+import { ItemCard } from '@vacacode/ui'
 ```
 
 Incorrect:
 
 ```ts
-import { ItemCard } from '@react_native_design_system/ui/dist/components/ItemCard'
+import { ItemCard } from '@vacacode/ui/dist/components/ItemCard'
 ```
 
 Consumers should never import internal implementation details.
@@ -427,8 +427,8 @@ Consumers should never import internal implementation details.
 All publishable packages must use the following namespace:
 
 ```txt
-@react_native_design_system/tokens
-@react_native_design_system/ui
+@vacacode/tokens
+@vacacode/ui
 ```
 
 Never use relative imports across packages.
@@ -442,7 +442,7 @@ import { colors } from '../../tokens/src/colors'
 Correct:
 
 ```ts
-import { colors } from '@react_native_design_system/tokens'
+import { colors } from '@vacacode/tokens'
 ```
 
 ---
@@ -617,8 +617,8 @@ Packages must be independently publishable.
 Expected packages:
 
 ```txt
-@react_native_design_system/tokens
-@react_native_design_system/ui
+@vacacode/tokens
+@vacacode/ui
 ```
 
 Requirements:

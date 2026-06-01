@@ -1,5 +1,5 @@
 {
-  "name": "@react_native_design_system/ui",
+  "name": "@vacacode/ui",
   "version": "0.0.1",
   "description": "React Native UI components for the React Native Design System",
   "main": "./dist/index.js",
@@ -13,6 +13,9 @@
     }
   },
   "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup",
     "typecheck": "tsc --noEmit",
@@ -21,7 +24,7 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@react_native_design_system/tokens": "workspace:*"
+    "@vacacode/tokens": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=18.3.0",
