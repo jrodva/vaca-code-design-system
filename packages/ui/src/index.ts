@@ -1,1 +1,2 @@
-const dummyVariable: number = 0;
+export * from './atoms'
+export * from './molecules'
